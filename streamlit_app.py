@@ -1,2 +1,3 @@
 import streamlit
-streamlit hello
+x = streamlit.slider("Select a value")
+streamlit.write(x, "squared is", x * x)
